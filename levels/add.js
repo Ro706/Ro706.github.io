@@ -18,8 +18,8 @@ function check(){
     if (check == 1){
         check = 0;
         check = sessionStorage.setItem('check',check);
-        window.location.reload();
-        
+        var time = 60;
+        scoreEle.innerHTML = "Score: 0"; 
     }
 }
 function compareRandom(a, b) {
