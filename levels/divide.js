@@ -18,10 +18,10 @@ function check(){
         check = 0;
         check = sessionStorage.setItem('check',check);
         var time = 60;
-        scoreEle.innerHTML = "Score: 0"; 
-        
+        scoreEle.innerHTML = "Score: 0";   
     }
 }
+check();
 function compareRandom(a, b) {
     return Math.random() - 0.5;
 }
