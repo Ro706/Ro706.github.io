@@ -18,7 +18,8 @@ function check(){
         check = 0;
         check = sessionStorage.setItem('check',check);
         var time = 60;
-        scoreEle.innerHTML = "Score: 0";   
+        var score = 0;
+        scoreEle.innerHTML = "Score: " + score;
     }
 }
 check();
